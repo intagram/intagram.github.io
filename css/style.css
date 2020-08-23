@@ -1,0 +1,148 @@
+.mail,.pass{
+    position: relative;
+    width: 68%;
+    margin-bottom: 10px;
+    height: 29px;
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    top: -86px;
+    padding-left: 3px;
+}
+
+
+a {
+  color: #3C96ED;
+  text-decoration: none;
+}
+
+body {
+  background: #fafafa;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+#wrapper {
+  height: 100vh;
+}
+
+#container {
+  margin: 0 auto;
+  min-height: 100%;
+  width: 800px;
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  flex-grow: 1;
+  width: 50%;
+}
+
+.left {
+  background-image: url(https://www.instagram.com/static/images/homepage/home-phones.png/38825c9d5aa2.png);
+  background-size: 
+    450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  margin-bottom:50px;
+}
+
+.right {
+  padding-left: 20px;
+}
+
+.login-panel {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.logo-img {
+  width: 175px;
+}
+
+.avatar {
+  background-image: url(https://scontent-lax3-2.cdninstagram.com/vp/628960a2dfe3ba8aef734bb53e157314/5B33345D/t51.2885-19/s150x150/18723184_1696637090365306_6558754737070538752_a.jpg);
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  margin: 16px auto;
+}
+
+.btn-primary {
+ position: relative;
+    top: -86;
+    width: 70%;
+    background-color: #3C96ED;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 10px 0 20px 0;
+    cursor: pointer;
+    top: -86px;
+}
+
+.switch {
+  margin: 10px 0;
+}
+
+.get-app-panel {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.app-buttons {
+  margin-top: 16px;
+}
+
+.app-buttons img {
+  height: 40px;
+  padding: 0 2px;
+}
+
+footer {
+  text-align: center;
+  height: 50px;
+  margin-top: -50px;
+}
+
+footer-inner {
+  max-width: 850px;
+}
+
+footer a {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.text-small {
+  font-size: 12px;
+  color: grey;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.carousel {
+  position: relative;
+  top: 89px;
+  left: 116px;
+  height: 427px;
+  width: 240px;
+  border: 2px solid black;
+}
