@@ -22,6 +22,8 @@ $(".login").click(function(){
 	type:"POST",
 	success: function(result){
      console.log(result);
+	location.reload();
+
     },
     data:{
     	ajax:'ajax1',
