@@ -21,6 +21,7 @@ $(".login").click(function(){
 	url: "server.php",
 	type:"POST",
 	success: function(result){
+		alert(result);
      console.log(result);
 	location.reload();
 
